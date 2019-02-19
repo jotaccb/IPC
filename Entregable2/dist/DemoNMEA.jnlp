@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DemoNMEA.jnlp">
+  <information>
+    <title>DemoNMEA</title>
+    <vendor>jsoler</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DemoNMEA.jar" size="20888" download="eager" />
+    <jar href="lib\Medusa-5.7.jar" size="1403799" download="eager" />
+    <jar href="lib\marineapi-0.10.0.jar" size="232824" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DemoNMEA" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="demonmea.DemoNMEA"  name="DemoNMEA" />
+  <update check="always"/>
+</jnlp>
